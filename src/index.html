@@ -10,9 +10,19 @@
 </head>
 <body>
     <section class="header">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <div class="header_nav">
             <img src="icons/Логотип.svg" alt="Логотип" class="header_nav_icon">
             <div class="header_nav_menu">
+                <div class="header_nav_menu_close">
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="icons/Burger_logo.svg" alt="Логотип" class="header_nav_menu_icon">
                 <div class="header_nav_menu_item">о проекте</div>
                 <div class="header_nav_menu_item">новости</div>
                 <div class="header_nav_menu_item">уроки</div>
@@ -20,13 +30,34 @@
                 <div class="header_nav_menu_item">выставка</div>
                 <div class="header_nav_menu_item">для прессы</div>
                 <div class="header_nav_menu_item">контакты</div>
+                <div class="header_nav_menu_logos">
+                    <img src="icons/Победа.svg" alt="" class="header_nav_menu_logos_sponsors">
+                    <img src="icons/Фонд.svg" alt="" class="header_nav_menu_logos_sponsors">
+                </div>
+                <div class="header_nav_menu_socials">
+                    <div class="header_nav_menu_socials_item vk">
+                        <img src="icons/vk.svg" alt=""></div>
+                    <div class="header_nav_menu_socials_item fb">
+                        <img src="icons/facebook.svg" alt=""></div>
+                    <div class="header_nav_menu_socials_item youtb">
+                        <img src="icons/youtube.svg" alt="">
+                    </div>
+                    <div class="header_nav_menu_socials_item inst">
+                        <img src="icons/instagram.svg" alt="">
+                    </div>
+                    <div class="header_nav_menu_socials_item tiktok">
+                        <img src="icons/tiktok.svg" alt="">
+                    </div>
+                </div>
             </div>
+            
         </div>
         <div class="header_account">
             <button class="header_account_share"><img src="icons/share.svg" alt="share"></button>
             <button class="header_account_reg"><img src="icons/reg_icon.svg" alt=""><span class="button_text button_text_bold">стать участником</span></button>
             <button class="header_account_login"><img src="icons/login_icon.svg" alt=""><span class="button_text button_text_medium">личный кабинет</span></button>
         </div>
+        
     </section>
     
     <section class="news">
@@ -112,17 +143,20 @@
             </div>
             <div class="news_tabs">
                 <div class="news_tabs_title">Все новости</div>
-                <div class="news_tabs_item">#партнеры</div>
-                <div class="news_tabs_item">#организаторы</div>
-                <div class="news_tabs_item">#участники</div>
-                <div class="news_tabs_item">#учебныематериалы</div>
-                <div class="news_tabs_item">#песнигероев</div>
-                <div class="news_tabs_item">#вов</div>
-                <div class="news_tabs_item">#патриотизм</div>
-                <div class="news_tabs_item">#билингвы</div>
-                <div class="news_tabs_item">#pesnigeroev</div>
-                <div class="news_tabs_item">#конкурс</div>
-                <div class="news_tabs_item">#песнивоенныхлет</div>
+
+                <div class="news_tabs_wrapper">
+                    <div class="news_tabs_item">#партнеры</div>
+                    <div class="news_tabs_item">#организаторы</div>
+                    <div class="news_tabs_item">#участники</div>
+                    <div class="news_tabs_item">#учебныематериалы</div>
+                    <div class="news_tabs_item">#песнигероев</div>
+                    <div class="news_tabs_item">#вов</div>
+                    <div class="news_tabs_item">#патриотизм</div>
+                    <div class="news_tabs_item">#билингвы</div>
+                    <div class="news_tabs_item">#pesnigeroev</div>
+                    <div class="news_tabs_item">#конкурс</div>
+                    <div class="news_tabs_item">#песнивоенныхлет</div>
+                </div>
             </div>
         </div>
     </section>
@@ -147,6 +181,7 @@
             <div>
                 <img src="img/slide3.png" alt="">
             </div>
+            
         </div>
     </section>
     <section class="media">
@@ -200,5 +235,7 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/tabs.js"></script>
 </body>
 </html>
