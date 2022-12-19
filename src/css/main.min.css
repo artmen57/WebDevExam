@@ -340,20 +340,7 @@
         transform: scale(0.7);
     }
 }
-/* 
-.slider {
-  margin-top: 230px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-} */
+
 .slider_carousel {
   margin-top: 100px;
   width: 1480px;
@@ -1255,4 +1242,3 @@
 .active {
   color: red;
 }
-/*# sourceMappingURL=main.min.css.map */
